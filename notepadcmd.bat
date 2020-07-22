@@ -48,11 +48,12 @@ git commit -m"By Country Pure Cluster daily"
 git push
 
 
-"C:\Program Files\R\R-4.0.0\bin\Rscript.exe" -e "library('rmarkdown');render('C:/Users/Harri/OneDrive/Documents/pure_top50/pure_top50.Rmd')"
-ren "C:\Users\Harri\OneDrive\Documents\pure_top50\pure_top50.html" "index.html"
-move "C:\Users\Harri\OneDrive\Documents\pure_top50\index.html" "C:\Users\Harri\OneDrive\Documents\pure_top50\docs\index.html"
-cd "C:/Users/Harri/OneDrive/Documents/pure_top50/docs"
+"C:\Program Files\R\R-4.0.0\bin\Rscript.exe" -e "library('rmarkdown');render('C:/Users/Harri/OneDrive/Documents/Risk_algorithm_method2/risk+algorithm_method2.Rmd')"
+ren "C:\Users\Harri\OneDrive\Documents\Risk_algorithm_method2\risk+algorithm_method2.html" "index.html"
+move "C:\Users\Harri\OneDrive\Documents\Risk_algorithm_method2\index.html" "C:\Users\Harri\OneDrive\Documents\Risk_algorithm_method2\docs\index.html"
+cd "C:/Users/Harri/OneDrive/Documents/Risk_algorithm_method2/docs"
 git add .
 git commit -m"Statistically Most Concerning Pure Cluster daily"
 git push
+
 
